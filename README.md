@@ -9,12 +9,10 @@
 - Highest **total realized PnL** occurs in **Fear** phases despite fewer trades → bigger reward per opportunity.
 - Traders are most active in **Greed** phases (highest trade count), but profitability per trade suffers.
 - Statistical test (ANOVA) shows significant differences in PnL across sentiment categories (p < 0.05).
-- Data covers May 2023 – May 2025; latest F&G (Jan 2026) fetched via API for context.
 
 **Limitations & Next Steps**
 - Dataset ends May 2025 → recent months missing
 - All trades appear to be on one symbol (check `@107` coin)
-- In production: use real-time F&G API + more granular (hourly) sentiment if available
 
 **How to run**
 ```bash
